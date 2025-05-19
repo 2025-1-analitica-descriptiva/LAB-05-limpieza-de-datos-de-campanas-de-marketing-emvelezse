@@ -21,6 +21,7 @@ def test_homework():
     # Campaign
     #
     campaign = pd.read_csv("files/output/campaign.csv")
+    print(campaign.shape)
 
     assert campaign.shape == (41188, 7)
     for name in (
